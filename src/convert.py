@@ -42,7 +42,10 @@ def parse_sources(raw: str) -> list[str]:
 
 
 def fetch_json(url: str, timeout: int = 20, retries: int = 2) -> Any:
-    headers = {"User-Agent": "playcover-to-gbox-catalog/1.0"}
+    headers = {
+        "User-Agent": "playcover-to-gbox-catalog/1.1",
+        "Accept": "application/json,text/plain,*/*",
+    }
     req = Request(url, headers=headers)
     last_exc: Exception | None = None
 
@@ -127,7 +130,11 @@ def _write_report(report_path: Path, report: dict[str, Any]) -> None:
     report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def run(dry_run: bool = False, fail_on_empty_sources: bool = False) -> int:
+def run(
+    dry_run: bool = False,
+    fail_on_empty_sources: bool = False,
+    fail_on_no_valid_apps: bool = False,
+) -> int:
     defaults = load_defaults(Path("config/defaults.json"))
     sources = parse_sources(os.getenv("PLAYCOVER_SOURCES", ""))
     output_path = Path(os.getenv("OUTPUT_PATH", "output/catalog.json"))
@@ -181,6 +188,26 @@ def run(dry_run: bool = False, fail_on_empty_sources: bool = False) -> int:
     deduped_apps, removed = dedupe_apps(collected_apps)
     stats.duplicates_removed = removed
 
+    if not deduped_apps:
+        report = {
+            "updatedAt": iso_utc_now(),
+            "sourcesTotal": stats.sources_total,
+            "sourcesOk": stats.sources_ok,
+            "appsSeen": stats.apps_seen,
+            "appsValid": stats.apps_valid,
+            "duplicatesRemoved": stats.duplicates_removed,
+            "errors": stats.errors,
+            "outputChanged": False,
+            "dryRun": dry_run,
+            "status": "partial",
+            "message": "No valid apps were produced from sources. Existing catalog preserved.",
+        }
+        _write_report(report_path, report)
+        print(json.dumps(report, ensure_ascii=False))
+        if fail_on_no_valid_apps:
+            raise RuntimeError("No valid apps were produced from all provided sources.")
+        return 0
+
     updated_at = iso_utc_now()
     catalog = build_catalog(defaults, deduped_apps, updated_at)
     validation_errors = validate_gbox_catalog(catalog)
@@ -215,8 +242,17 @@ def main() -> int:
         action="store_true",
         help="Fail if PLAYCOVER_SOURCES is empty instead of skipping gracefully",
     )
+    parser.add_argument(
+        "--fail-on-no-valid-apps",
+        action="store_true",
+        help="Fail if all sources are unavailable/invalid and no apps were produced",
+    )
     args = parser.parse_args()
-    return run(dry_run=args.dry_run, fail_on_empty_sources=args.fail_on_empty_sources)
+    return run(
+        dry_run=args.dry_run,
+        fail_on_empty_sources=args.fail_on_empty_sources,
+        fail_on_no_valid_apps=args.fail_on_no_valid_apps,
+    )
 
 
 if __name__ == "__main__":

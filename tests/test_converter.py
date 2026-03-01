@@ -45,3 +45,34 @@ def test_empty_sources_is_skipped(tmp_path, monkeypatch):
     assert exit_code == 0
     report = json.loads(Path("output/last-run.json").read_text(encoding="utf-8"))
     assert report["status"] == "skipped"
+
+
+def test_no_valid_apps_is_partial(tmp_path, monkeypatch):
+    monkeypatch.chdir(tmp_path)
+    (tmp_path / "config").mkdir()
+    (tmp_path / "config/defaults.json").write_text(
+        json.dumps(
+            {
+                "version": "1.0",
+                "sourceName": "x",
+                "sourceAuthor": "x",
+                "sourceImage": "x",
+                "sourceDescription": "x",
+                "appCategories": ["Apps"],
+                "defaultAppType": "SELF_SIGN",
+                "fallbackAppImage": "x",
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    src_path = tmp_path / "source.json"
+    src_path.write_text(json.dumps([{"name": "App", "version": "1.0.0", "link": "https://example.com/nope.zip"}]))
+    monkeypatch.setenv("PLAYCOVER_SOURCES", f"file://{src_path}")
+
+    exit_code = run(dry_run=False)
+
+    assert exit_code == 0
+    report = json.loads(Path("output/last-run.json").read_text(encoding="utf-8"))
+    assert report["status"] == "partial"
+    assert not Path("output/catalog.json").exists()

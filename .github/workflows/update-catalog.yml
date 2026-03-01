@@ -36,8 +36,14 @@ jobs:
         run: python src/convert.py
 
       - name: Build summary
+        env:
+          PLAYCOVER_SOURCES: ${{ vars.PLAYCOVER_SOURCES }}
         run: |
           echo "## Catalog run report" >> "$GITHUB_STEP_SUMMARY"
+          echo "- PLAYCOVER_SOURCES configured: $([ -n "$PLAYCOVER_SOURCES" ] && echo yes || echo no)" >> "$GITHUB_STEP_SUMMARY"
+          if [ -z "$PLAYCOVER_SOURCES" ]; then
+            echo "- ⚠️ Repository Variable PLAYCOVER_SOURCES is empty. If you configured *Environment variables*, bind this workflow job to that environment or move values to Repository Variables." >> "$GITHUB_STEP_SUMMARY"
+          fi
           echo '```json' >> "$GITHUB_STEP_SUMMARY"
           cat output/last-run.json >> "$GITHUB_STEP_SUMMARY"
           echo '```' >> "$GITHUB_STEP_SUMMARY"

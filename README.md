@@ -59,6 +59,17 @@ GBox app:
 - Статус workflow: вкладка **Actions**.
 - Метрики последнего запуска: `output/last-run.json`.
 
+
+## Troubleshooting
+
+- Если в отчёте `status: skipped` и `PLAYCOVER_SOURCES is empty`, проверьте где сохранены переменные:
+  - **Repository Variables** работают сразу через `${{ vars.* }}`;
+  - **Environment Variables** не подхватываются, пока job не привязан к конкретному GitHub Environment.
+- Если источник (например `https://decrypt.day/library`) отдаёт `403`/Cloudflare challenge для GitHub runner, каталог не будет обновлён. В таком случае:
+  1. используйте прямую публичную JSON-ссылку без anti-bot challenge;
+  2. либо проксируйте source через endpoint, доступный для server-to-server запросов;
+  3. проверьте URL локально через `curl`/`python` на валидный JSON-массив PlayCover.
+
 ## Известные ограничения
 
 - Версии сравниваются лексикографически (MVP).
