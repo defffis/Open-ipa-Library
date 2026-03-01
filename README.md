@@ -70,6 +70,11 @@ GBox app:
   2. либо проксируйте source через endpoint, доступный для server-to-server запросов;
   3. проверьте URL локально через `curl`/`python` на валидный JSON-массив PlayCover.
 
+
+- Примеры **неподходящих** URL для `PLAYCOVER_SOURCES`:
+  - `https://decrypt.day/library` (Cloudflare challenge/HTML, не JSON),
+  - `https://armconverter.com/decryptedappstore/us` (HTML-страница SPA, не JSON feed).
+
 ## Известные ограничения
 
 - Версии сравниваются лексикографически (MVP).

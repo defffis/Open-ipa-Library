@@ -38,12 +38,27 @@ def parse_sources(raw: str) -> list[str]:
             raise ValueError("PLAYCOVER_SOURCES JSON must be an array of URLs")
         return [str(url).strip() for url in maybe_json if str(url).strip()]
 
-    return [line.strip() for line in raw.splitlines() if line.strip()]
+    sources: list[str] = []
+    for line in raw.splitlines():
+        line = line.strip()
+        if line:
+            sources.append(line)
+    return sources
+
+
+def _summarize_non_json(content: str) -> str:
+    snippet = " ".join(content.strip().split())[:140]
+    lower = content.lower()
+    if "just a moment" in lower or "cf_chl" in lower or "cloudflare" in lower:
+        return f"response is HTML Cloudflare challenge (snippet: {snippet})"
+    if content.lstrip().startswith("<"):
+        return f"response is HTML, not JSON (snippet: {snippet})"
+    return f"response is not valid JSON (snippet: {snippet})"
 
 
 def fetch_json(url: str, timeout: int = 20, retries: int = 2) -> Any:
     headers = {
-        "User-Agent": "playcover-to-gbox-catalog/1.1",
+        "User-Agent": "playcover-to-gbox-catalog/1.2",
         "Accept": "application/json,text/plain,*/*",
     }
     req = Request(url, headers=headers)
@@ -55,9 +70,12 @@ def fetch_json(url: str, timeout: int = 20, retries: int = 2) -> Any:
                 status = getattr(response, "status", None)
                 if status is not None and (status < 200 or status >= 300):
                     raise RuntimeError(f"HTTP {status}")
-                content = response.read().decode("utf-8")
-                return json.loads(content)
-        except (HTTPError, URLError, TimeoutError, json.JSONDecodeError, RuntimeError) as exc:
+                content = response.read().decode("utf-8", errors="replace")
+                try:
+                    return json.loads(content)
+                except json.JSONDecodeError:
+                    raise RuntimeError(_summarize_non_json(content)) from None
+        except (HTTPError, URLError, TimeoutError, RuntimeError) as exc:
             last_exc = exc
 
     assert last_exc is not None
@@ -140,6 +158,7 @@ def run(
     output_path = Path(os.getenv("OUTPUT_PATH", "output/catalog.json"))
     report_path = Path("output/last-run.json")
     stats = ConvertStats(sources_total=len(sources))
+    source_errors: list[dict[str, str]] = []
 
     if not sources:
         report = {
@@ -154,6 +173,7 @@ def run(
             "dryRun": dry_run,
             "status": "skipped",
             "message": "PLAYCOVER_SOURCES is empty; catalog generation skipped.",
+            "sourceErrors": source_errors,
         }
         _write_report(report_path, report)
         print(json.dumps(report, ensure_ascii=False))
@@ -167,7 +187,7 @@ def run(
         try:
             data = fetch_json(source_url)
             if not isinstance(data, list):
-                raise ValueError("source payload must be an array")
+                raise ValueError("source payload must be an array of PlayCover app objects")
             stats.sources_ok += 1
             for item in data:
                 if not isinstance(item, dict):
@@ -182,7 +202,9 @@ def run(
                 else:
                     stats.errors += 1
         except Exception as exc:  # noqa: BLE001
-            print(f"[WARN] Source failed: {source_url}: {exc}")
+            msg = str(exc)
+            print(f"[WARN] Source failed: {source_url}: {msg}")
+            source_errors.append({"url": source_url, "error": msg})
             stats.errors += 1
 
     deduped_apps, removed = dedupe_apps(collected_apps)
@@ -201,6 +223,11 @@ def run(
             "dryRun": dry_run,
             "status": "partial",
             "message": "No valid apps were produced from sources. Existing catalog preserved.",
+            "sourceErrors": source_errors,
+            "hint": (
+                "Each source URL must return a JSON array in PlayCover format. "
+                "Web pages/challenge pages are not valid sources."
+            ),
         }
         _write_report(report_path, report)
         print(json.dumps(report, ensure_ascii=False))
@@ -227,6 +254,7 @@ def run(
         "outputChanged": changed,
         "dryRun": dry_run,
         "status": "ok",
+        "sourceErrors": source_errors,
     }
 
     _write_report(report_path, report)

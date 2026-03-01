@@ -76,3 +76,35 @@ def test_no_valid_apps_is_partial(tmp_path, monkeypatch):
     report = json.loads(Path("output/last-run.json").read_text(encoding="utf-8"))
     assert report["status"] == "partial"
     assert not Path("output/catalog.json").exists()
+
+
+def test_html_source_reports_actionable_error(tmp_path, monkeypatch):
+    monkeypatch.chdir(tmp_path)
+    (tmp_path / "config").mkdir()
+    (tmp_path / "config/defaults.json").write_text(
+        json.dumps(
+            {
+                "version": "1.0",
+                "sourceName": "x",
+                "sourceAuthor": "x",
+                "sourceImage": "x",
+                "sourceDescription": "x",
+                "appCategories": ["Apps"],
+                "defaultAppType": "SELF_SIGN",
+                "fallbackAppImage": "x",
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    html_path = tmp_path / "source.html"
+    html_path.write_text("<html><body>Just a moment...</body></html>", encoding="utf-8")
+    monkeypatch.setenv("PLAYCOVER_SOURCES", f"file://{html_path}")
+
+    exit_code = run(dry_run=False)
+
+    assert exit_code == 0
+    report = json.loads(Path("output/last-run.json").read_text(encoding="utf-8"))
+    assert report["status"] == "partial"
+    assert report["sourceErrors"]
+    assert "HTML" in report["sourceErrors"][0]["error"]

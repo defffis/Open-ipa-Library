@@ -11,7 +11,6 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    environment: Open-ipa-Library
     steps:
       - name: Checkout
         uses: actions/checkout@v4
