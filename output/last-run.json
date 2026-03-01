@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-03-01T14:55:18Z",
-  "sourcesTotal": 0,
+  "updatedAt": "2026-03-01T15:00:07Z",
+  "sourcesTotal": 1,
   "sourcesOk": 0,
   "appsSeen": 0,
   "appsValid": 0,
@@ -8,6 +8,6 @@
   "errors": 1,
   "outputChanged": false,
   "dryRun": false,
-  "status": "skipped",
-  "message": "PLAYCOVER_SOURCES is empty; catalog generation skipped."
+  "status": "partial",
+  "message": "No valid apps were produced from sources. Existing catalog preserved."
 }
