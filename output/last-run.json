@@ -1,14 +1,24 @@
 {
-  "updatedAt": "2026-03-01T15:12:01Z",
-  "sourcesTotal": 0,
+  "updatedAt": "2026-03-01T15:14:00Z",
+  "sourcesTotal": 2,
   "sourcesOk": 0,
   "appsSeen": 0,
   "appsValid": 0,
   "duplicatesRemoved": 0,
-  "errors": 1,
+  "errors": 2,
   "outputChanged": false,
   "dryRun": false,
-  "status": "skipped",
-  "message": "PLAYCOVER_SOURCES is empty; catalog generation skipped.",
-  "sourceErrors": []
+  "status": "partial",
+  "message": "No valid apps were produced from sources. Existing catalog preserved.",
+  "sourceErrors": [
+    {
+      "url": "https://decrypt.day/library",
+      "error": "Failed to fetch https://decrypt.day/library: response is HTML, not JSON (snippet: <!doctype html> <html lang=\"en\" class=\"dark\"> <head> <meta charset=\"utf-8\" /> <link rel=\"icon\" href=\"./favicon.ico\" /> <meta name=\"viewport\")"
+    },
+    {
+      "url": "https://armconverter.com/decryptedappstore/us",
+      "error": "Failed to fetch https://armconverter.com/decryptedappstore/us: response is HTML, not JSON (snippet: <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name=\"viewport\" c)"
+    }
+  ],
+  "hint": "Each source URL must return a JSON array in PlayCover format. Web pages/challenge pages are not valid sources."
 }
