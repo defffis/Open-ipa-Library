@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "sourceName": "PlayCover to GBox",
+  "sourceAuthor": "Open-ipa-Library",
+  "sourceLinkTitle": "GitHub Repository",
+  "sourceLinkUrl": "https://github.com/<owner>/<repo>",
+  "sourceImage": "https://raw.githubusercontent.com/<owner>/<repo>/main/docs/source.png",
+  "sourceUpdateTime": "1970-01-01T00:00:00Z",
+  "sourceDescription": "Daily generated GBox catalog from PlayCover sources.",
+  "appCategories": [
+    "Apps"
+  ],
+  "appRepositories": [
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "1970-01-01T00:00:00Z",
+      "appName": "Example App",
+      "appVersion": "0.0.0",
+      "appImage": "https://raw.githubusercontent.com/<owner>/<repo>/main/docs/fallback-icon.png",
+      "appPackage": "https://example.com/example.ipa",
+      "appDescription": "Placeholder app. This file will be replaced by workflow runs."
+    }
+  ]
+}
