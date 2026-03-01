@@ -122,7 +122,12 @@ def write_if_changed(path: Path, payload: dict[str, Any]) -> bool:
     return True
 
 
-def run(dry_run: bool = False) -> int:
+def _write_report(report_path: Path, report: dict[str, Any]) -> None:
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def run(dry_run: bool = False, fail_on_empty_sources: bool = False) -> int:
     defaults = load_defaults(Path("config/defaults.json"))
     sources = parse_sources(os.getenv("PLAYCOVER_SOURCES", ""))
     output_path = Path(os.getenv("OUTPUT_PATH", "output/catalog.json"))
@@ -130,7 +135,24 @@ def run(dry_run: bool = False) -> int:
     stats = ConvertStats(sources_total=len(sources))
 
     if not sources:
-        raise RuntimeError("No sources found. Set PLAYCOVER_SOURCES variable.")
+        report = {
+            "updatedAt": iso_utc_now(),
+            "sourcesTotal": 0,
+            "sourcesOk": 0,
+            "appsSeen": 0,
+            "appsValid": 0,
+            "duplicatesRemoved": 0,
+            "errors": 1,
+            "outputChanged": False,
+            "dryRun": dry_run,
+            "status": "skipped",
+            "message": "PLAYCOVER_SOURCES is empty; catalog generation skipped.",
+        }
+        _write_report(report_path, report)
+        print(json.dumps(report, ensure_ascii=False))
+        if fail_on_empty_sources:
+            raise RuntimeError("No sources found. Set PLAYCOVER_SOURCES variable.")
+        return 0
 
     collected_apps: list[PlayCoverApp] = []
 
@@ -177,10 +199,10 @@ def run(dry_run: bool = False) -> int:
         "errors": stats.errors,
         "outputChanged": changed,
         "dryRun": dry_run,
+        "status": "ok",
     }
 
-    report_path.parent.mkdir(parents=True, exist_ok=True)
-    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    _write_report(report_path, report)
     print(json.dumps(report, ensure_ascii=False))
     return 0
 
@@ -188,8 +210,13 @@ def run(dry_run: bool = False) -> int:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Convert PlayCover sources to GBox catalog")
     parser.add_argument("--dry-run", action="store_true", help="Validate only, no catalog write")
+    parser.add_argument(
+        "--fail-on-empty-sources",
+        action="store_true",
+        help="Fail if PLAYCOVER_SOURCES is empty instead of skipping gracefully",
+    )
     args = parser.parse_args()
-    return run(dry_run=args.dry_run)
+    return run(dry_run=args.dry_run, fail_on_empty_sources=args.fail_on_empty_sources)
 
 
 if __name__ == "__main__":

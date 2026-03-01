@@ -31,13 +31,16 @@ jobs:
           GBOX_SOURCE_DESCRIPTION: ${{ vars.GBOX_SOURCE_DESCRIPTION }}
           GBOX_SOURCE_IMAGE: ${{ vars.GBOX_SOURCE_IMAGE }}
           GBOX_DEFAULT_APP_TYPE: ${{ vars.GBOX_DEFAULT_APP_TYPE }}
+          GBOX_FALLBACK_ICON: ${{ vars.GBOX_FALLBACK_ICON }}
           OUTPUT_PATH: ${{ vars.OUTPUT_PATH }}
         run: python src/convert.py
 
       - name: Build summary
         run: |
-          echo "## Catalog run report" >> $GITHUB_STEP_SUMMARY
-          cat output/last-run.json >> $GITHUB_STEP_SUMMARY
+          echo "## Catalog run report" >> "$GITHUB_STEP_SUMMARY"
+          echo '```json' >> "$GITHUB_STEP_SUMMARY"
+          cat output/last-run.json >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
 
       - name: Commit and push changes
         run: |

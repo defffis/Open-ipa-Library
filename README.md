@@ -30,6 +30,7 @@
    - `GBOX_SOURCE_DESCRIPTION`
    - `GBOX_SOURCE_IMAGE`
    - `GBOX_DEFAULT_APP_TYPE`
+   - `GBOX_FALLBACK_ICON`
    - `OUTPUT_PATH` (обычно `output/catalog.json`)
 2. При необходимости перенесите чувствительные параметры в Secrets.
 3. Запустите workflow вручную через **Actions → Update GBox catalog → Run workflow**.
@@ -40,6 +41,7 @@
 ```bash
 python src/convert.py
 python src/convert.py --dry-run
+python src/convert.py --fail-on-empty-sources
 ```
 
 ## Формат преобразования
@@ -62,3 +64,4 @@ GBox app:
 - Версии сравниваются лексикографически (MVP).
 - Иконка приложения — общий fallback (`GBOX_FALLBACK_ICON` / defaults).
 - Если источник недоступен, pipeline продолжает обработку остальных источников.
+- Если `PLAYCOVER_SOURCES` пустой, запуск помечается как `skipped` и не падает (для строгого режима используйте `--fail-on-empty-sources`).
