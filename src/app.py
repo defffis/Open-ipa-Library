@@ -13,6 +13,12 @@ from pathlib import Path
 
 
 def main() -> int:
+    # Гарантируем доступность пакетных импортов `src.*` при запуске
+    # через `python src/app.py` (в CI и локально).
+    project_root = Path(__file__).resolve().parent.parent
+    if str(project_root) not in sys.path:
+        sys.path.insert(0, str(project_root))
+
     parser = argparse.ArgumentParser(
         description="Build GBox catalog from multiple IPA sources"
     )
@@ -46,10 +52,7 @@ def main() -> int:
     args = parser.parse_args()
 
     # Импорт здесь, чтобы ошибки импорта не мешали --help
-    try:
-        from src.orchestrator import run
-    except ModuleNotFoundError:
-        from orchestrator import run  # type: ignore[no-redef]
+    from src.orchestrator import run
 
     sources_path = Path(args.sources) if args.sources else None
     output_path = Path(args.output) if args.output else None

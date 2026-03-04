@@ -25,9 +25,20 @@ class RegistryError(Exception):
 
 def _validate_entry(d: dict[str, Any], idx: int) -> list[str]:
     errors: list[str] = []
-    for key in ("id", "name", "type", "adapter", "catalogUrl"):
-        if not d.get(key):
+
+    # Базовые поля должны присутствовать всегда.
+    for key in ("id", "name", "type", "adapter"):
+        if key not in d:
             errors.append(f"sources[{idx}] missing required field '{key}'")
+
+    # catalogUrl обязателен для включённых источников.
+    # Для disabled-источников допускаем пустое значение как плейсхолдер.
+    enabled = bool(d.get("enabled", True))
+    if "catalogUrl" not in d:
+        errors.append(f"sources[{idx}] missing required field 'catalogUrl'")
+    elif enabled and not d.get("catalogUrl"):
+        errors.append(f"sources[{idx}] missing required field 'catalogUrl'")
+
     if d.get("type") and d["type"] not in VALID_TYPES:
         errors.append(f"sources[{idx}] unknown type '{d['type']}'")
     if d.get("adapter") and d["adapter"] not in VALID_ADAPTERS:
