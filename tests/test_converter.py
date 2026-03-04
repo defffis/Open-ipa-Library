@@ -386,6 +386,36 @@ class TestRegistry:
         assert len(sources) == 1
         assert sources[0].id == "enabled"
 
+    def test_load_enabled_sources_allows_empty_catalog_url_for_disabled(self, tmp_path):
+        from src.registry import load_enabled_sources
+
+        sources_json = [
+            {
+                "id": "enabled",
+                "name": "Enabled",
+                "type": "playcover_json",
+                "adapter": "playcover_json",
+                "catalogUrl": "https://example.com/s.json",
+                "enabled": True,
+                "priority": 10,
+            },
+            {
+                "id": "disabled-placeholder",
+                "name": "Disabled Placeholder",
+                "type": "playcover_json",
+                "adapter": "playcover_json",
+                "catalogUrl": "",
+                "enabled": False,
+                "priority": 5,
+            },
+        ]
+        path = tmp_path / "sources.json"
+        path.write_text(json.dumps(sources_json), encoding="utf-8")
+
+        sources = load_enabled_sources(path)
+        assert len(sources) == 1
+        assert sources[0].id == "enabled"
+
 
 class TestOrchestratorRun:
     def _setup_env(self, tmp_path):
