@@ -1,24 +1,30 @@
 {
-  "updatedAt": "2026-03-04T04:17:33Z",
-  "sourcesTotal": 2,
+  "updatedAt": "2026-03-04T19:04:04Z",
+  "status": "partial",
+  "sourcesProcessed": 3,
   "sourcesOk": 0,
-  "appsSeen": 0,
-  "appsValid": 0,
+  "sourcesPartial": 0,
+  "sourcesError": 3,
+  "appsFound": 0,
+  "appsNormalized": 0,
+  "appsExportable": 0,
+  "appsDropped": 0,
   "duplicatesRemoved": 0,
-  "errors": 2,
   "outputChanged": false,
   "dryRun": false,
-  "status": "partial",
-  "message": "No valid apps were produced from sources. Existing catalog preserved.",
+  "message": "No exportable apps (with download_url and availability=public). Existing catalog preserved.",
   "sourceErrors": [
     {
-      "url": "https://decrypt.day/library",
-      "error": "Failed to fetch https://decrypt.day/library: response is HTML, not JSON (snippet: <!doctype html> <html lang=\"en\" class=\"dark\"> <head> <meta charset=\"utf-8\" /> <link rel=\"icon\" href=\"./favicon.ico\" /> <meta name=\"viewport\")"
+      "sourceId": "my-playcover-feed",
+      "error": "response is HTML Cloudflare challenge from https://decrypt.day/library/data.json (snippet: <!doctype html> <html lang=\"en\" class=\"dark\"> <head><script>(function(w,i,g){w[g]=w[g]||[];if(typeof w[g].push=='functio)"
     },
     {
-      "url": "https://armconverter.com/decryptedappstore/us",
-      "error": "Failed to fetch https://armconverter.com/decryptedappstore/us: response is HTML, not JSON (snippet: <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name=\"viewport\" c)"
+      "sourceId": "decrypt-day",
+      "error": "HTTP 404 from https://decrypt.day/app/list"
+    },
+    {
+      "sourceId": "armconverter",
+      "error": "HTML challenge detected at https://armconverter.com/decryptedappstore/us (snippet: <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <me)"
     }
-  ],
-  "hint": "Each source URL must return a JSON array in PlayCover format. Web pages/challenge pages are not valid sources."
+  ]
 }

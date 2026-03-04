@@ -1,0 +1,26 @@
+[
+  {
+    "sourceId": "my-playcover-feed",
+    "sourceName": "My PlayCover Feed",
+    "status": "error",
+    "appsFound": 0,
+    "appsExportable": 0,
+    "error": "response is HTML Cloudflare challenge from https://decrypt.day/library/data.json (snippet: <!doctype html> <html lang=\"en\" class=\"dark\"> <head><script>(function(w,i,g){w[g]=w[g]||[];if(typeof w[g].push=='functio)"
+  },
+  {
+    "sourceId": "decrypt-day",
+    "sourceName": "decrypt.day App Catalog",
+    "status": "error",
+    "appsFound": 0,
+    "appsExportable": 0,
+    "error": "HTTP 404 from https://decrypt.day/app/list"
+  },
+  {
+    "sourceId": "armconverter",
+    "sourceName": "armconverter.com App Catalog",
+    "status": "error",
+    "appsFound": 0,
+    "appsExportable": 0,
+    "error": "HTML challenge detected at https://armconverter.com/decryptedappstore/us (snippet: <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <me)"
+  }
+]
