@@ -26,7 +26,6 @@ jobs:
 
       - name: Build catalog
         env:
-          PLAYCOVER_SOURCES: ${{ vars.PLAYCOVER_SOURCES }}
           GBOX_SOURCE_NAME: ${{ vars.GBOX_SOURCE_NAME }}
           GBOX_SOURCE_AUTHOR: ${{ vars.GBOX_SOURCE_AUTHOR }}
           GBOX_SOURCE_DESCRIPTION: ${{ vars.GBOX_SOURCE_DESCRIPTION }}
@@ -34,29 +33,26 @@ jobs:
           GBOX_DEFAULT_APP_TYPE: ${{ vars.GBOX_DEFAULT_APP_TYPE }}
           GBOX_FALLBACK_ICON: ${{ vars.GBOX_FALLBACK_ICON }}
           OUTPUT_PATH: ${{ vars.OUTPUT_PATH }}
-        run: python src/convert.py
+        run: python src/app.py
 
       - name: Build summary
-        env:
-          PLAYCOVER_SOURCES: ${{ vars.PLAYCOVER_SOURCES }}
+        if: always()
         run: |
-          echo "## Catalog run report" >> "$GITHUB_STEP_SUMMARY"
-          echo "- PLAYCOVER_SOURCES configured: $([ -n "$PLAYCOVER_SOURCES" ] && echo yes || echo no)" >> "$GITHUB_STEP_SUMMARY"
-          if [ -z "$PLAYCOVER_SOURCES" ]; then
-            echo "- ⚠️ Repository Variable PLAYCOVER_SOURCES is empty. If you configured *Environment variables*, bind this workflow job to that environment or move values to Repository Variables." >> "$GITHUB_STEP_SUMMARY"
+          if [ -f output/last-run.json ]; then
+            echo "### Last run report" >> "$GITHUB_STEP_SUMMARY"
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            cat output/last-run.json >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
           fi
-          echo '```json' >> "$GITHUB_STEP_SUMMARY"
-          cat output/last-run.json >> "$GITHUB_STEP_SUMMARY"
-          echo '```' >> "$GITHUB_STEP_SUMMARY"
 
       - name: Commit and push changes
         run: |
-          if git diff --quiet -- output/catalog.json output/last-run.json; then
+          if git diff --quiet -- output/catalog.json output/last-run.json output/sources-status.json; then
             echo "No catalog changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/catalog.json output/last-run.json
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/catalog.json output/last-run.json output/sources-status.json
           git commit -m "chore: update GBox catalog"
           git push

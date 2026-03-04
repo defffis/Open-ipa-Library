@@ -1,0 +1,12 @@
+{
+  "_comment": "Правила дедупликации CanonicalApp. Ключ выбирается в порядке приоритета.",
+  "keyPriority": ["bundle_id", "name_version", "app_page_url"],
+  "winnerSelection": {
+    "primaryKey": "source_priority",
+    "tieBreakers": ["has_download_url", "metadata_score"]
+  },
+  "normalize": {
+    "bundleId": "lowercase",
+    "name": "lowercase_strip"
+  }
+}

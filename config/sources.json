@@ -1,0 +1,46 @@
+[
+  {
+    "id": "playcover-community",
+    "name": "PlayCover Community Sources",
+    "type": "playcover_json",
+    "adapter": "playcover_json",
+    "catalogUrl": "",
+    "enabled": false,
+    "priority": 10,
+    "timeoutSec": 20,
+    "retries": 2,
+    "options": {},
+    "rateLimit": { "requestsPerMinute": 30, "burst": 5 }
+  },
+  {
+    "id": "decrypt-day",
+    "name": "decrypt.day App Catalog",
+    "type": "html_catalog",
+    "adapter": "decrypt_day_html",
+    "catalogUrl": "https://decrypt.day/app/list",
+    "enabled": true,
+    "priority": 20,
+    "timeoutSec": 30,
+    "retries": 2,
+    "options": {
+      "listUrl": "https://decrypt.day/app/list",
+      "appBaseUrl": "https://decrypt.day"
+    },
+    "rateLimit": { "requestsPerMinute": 10, "burst": 2 }
+  },
+  {
+    "id": "armconverter",
+    "name": "armconverter.com App Catalog",
+    "type": "html_catalog",
+    "adapter": "armconverter_html",
+    "catalogUrl": "https://armconverter.com/decryptedappstore/us",
+    "enabled": true,
+    "priority": 30,
+    "timeoutSec": 30,
+    "retries": 2,
+    "options": {
+      "region": "us"
+    },
+    "rateLimit": { "requestsPerMinute": 10, "burst": 2 }
+  }
+]

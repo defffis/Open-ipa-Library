@@ -1,1 +1,1 @@
-# No third-party dependencies required for MVP converter.
+beautifulsoup4>=4.12
