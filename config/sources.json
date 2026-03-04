@@ -29,13 +29,22 @@
     "rateLimit": { "requestsPerMinute": 10, "burst": 2 }
   },
   {
+    "id": "my-playcover-feed",
+    "name": "My PlayCover Feed",
+    "type": "playcover_json",
+    "adapter": "playcover_json",
+    "catalogUrl": "https://decrypt.day/library/data.json",
+    "enabled": true,
+    "priority": 10
+  },
+  {
     "id": "armconverter",
     "name": "armconverter.com App Catalog",
     "type": "html_catalog",
     "adapter": "armconverter_html",
     "catalogUrl": "https://armconverter.com/decryptedappstore/us",
     "enabled": true,
-    "priority": 30,
+    "priority": 40,
     "timeoutSec": 30,
     "retries": 2,
     "options": {
