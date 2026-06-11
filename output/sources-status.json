@@ -21,6 +21,6 @@
     "status": "error",
     "appsFound": 0,
     "appsExportable": 0,
-    "error": "HTTP 521 from https://armconverter.com/decryptedappstore/us"
+    "error": "HTML challenge detected at https://armconverter.com/decryptedappstore/us (snippet: <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <me)"
   }
 ]
