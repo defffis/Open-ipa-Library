@@ -1,0 +1,13 @@
+{
+  "name": "open-ipa-library-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check lib/catalog.js && node --check api/catalog.js && node --check api/health.js && node --check api/preview.js && node --check api/cron/sync.js"
+  }
+}

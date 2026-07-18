@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Open IPA Library</title>
+  <style>
+    :root{color-scheme:dark;font-family:Inter,ui-sans-serif,system-ui,sans-serif;background:#0b0d10;color:#f3f5f7}
+    body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;box-sizing:border-box}
+    main{width:min(720px,100%);border:1px solid #2a2f36;border-radius:18px;padding:32px;background:#12161b;box-shadow:0 20px 60px #0008}
+    h1{margin:0 0 12px;font-size:clamp(30px,6vw,52px);letter-spacing:-.04em}
+    p{color:#aeb7c2;line-height:1.6}
+    code{display:block;overflow-wrap:anywhere;background:#0b0d10;border:1px solid #2a2f36;padding:14px;border-radius:10px;color:#d9e7ff}
+    a{color:#8ab4ff}
+    .status{margin-top:22px;padding-top:18px;border-top:1px solid #2a2f36}
+  </style>
+</head>
+<body>
+<main>
+  <h1>Open IPA Library</h1>
+  <p>Автоматический конвертер каталогов PlayCover в формат GBox. Каталог обновляется ежедневным Vercel Cron и сохраняется в GitHub.</p>
+  <p>Ссылка для GBox:</p>
+  <code id="catalog"></code>
+  <div class="status">Статус: <a href="/api/health">/api/health</a> · JSON: <a href="/gbox/catalog.json">/gbox/catalog.json</a></div>
+</main>
+<script>document.getElementById('catalog').textContent=location.origin+'/gbox/catalog.json'</script>
+</body>
+</html>
