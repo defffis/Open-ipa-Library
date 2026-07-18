@@ -1,0 +1,23 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "crons": [
+    {
+      "path": "/api/cron/sync",
+      "schedule": "15 3 * * *"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/gbox/catalog.json",
+      "destination": "/api/catalog"
+    }
+  ],
+  "functions": {
+    "api/cron/sync.js": {
+      "maxDuration": 60
+    },
+    "api/preview.js": {
+      "maxDuration": 60
+    }
+  }
+}
