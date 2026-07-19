@@ -30,12 +30,15 @@
   },
   {
     "id": "my-playcover-feed",
-    "name": "My PlayCover Feed",
+    "name": "decrypt.day PlayCover Library",
     "type": "playcover_json",
     "adapter": "playcover_json",
-    "catalogUrl": "https://decrypt.day/library/data.json",
+    "catalogUrl": "https://open-ipa-library.vercel.app/api/source/decrypt-day",
     "enabled": true,
-    "priority": 10
+    "priority": 10,
+    "timeoutSec": 30,
+    "retries": 2,
+    "category": "Apps"
   },
   {
     "id": "armconverter",
