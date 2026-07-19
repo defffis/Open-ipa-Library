@@ -3,9 +3,9 @@
   "sourceName": "PlayCover to GBox",
   "sourceAuthor": "Open-ipa-Library",
   "sourceLinkTitle": "GitHub Repository",
-  "sourceLinkUrl": "https://github.com/<owner>/<repo>",
-  "sourceImage": "https://raw.githubusercontent.com/<owner>/<repo>/main/docs/source.png",
-  "sourceUpdateTime": "1970-01-01T00:00:00Z",
+  "sourceLinkUrl": "https://github.com/defffis/Open-ipa-Library",
+  "sourceImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/source.png",
+  "sourceUpdateTime": "2026-07-19T10:55:15Z",
   "sourceDescription": "Daily generated GBox catalog from PlayCover sources.",
   "appCategories": [
     "Apps"
@@ -14,12 +14,1772 @@
     {
       "appType": "SELF_SIGN",
       "appCateIndex": 0,
-      "appUpdateTime": "1970-01-01T00:00:00Z",
-      "appName": "Example App",
-      "appVersion": "0.0.0",
-      "appImage": "https://raw.githubusercontent.com/<owner>/<repo>/main/docs/fallback-icon.png",
-      "appPackage": "https://example.com/example.ipa",
-      "appDescription": "Placeholder app. This file will be replaced by workflow runs."
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "AION2",
+      "appVersion": "1.0.38",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6747883964/dl2/1.0.38?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.nctaiwan.aion2"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "AION2",
+      "appVersion": "1.0.38",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1470173983/dl2/1.0.38?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.ncsoft.aion2"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Arcaea",
+      "appVersion": "6.15.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1205999125/dl2/6.15.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: moe.low.arc"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Arena of Valor",
+      "appVersion": "1.63.1.5",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1150318642/dl2/1.63.1.5?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.ngame.allstar.eu"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Arknights",
+      "appVersion": "35.7.01",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1464872022/dl2/35.7.01?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.YoStarEN.Arknights"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Assassin's Creed Mirage",
+      "appVersion": "1.8.2",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6472704261/dl2/1.8.2?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.ubisoft.assassinscreed.mirage.mobile.action.adventure"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "BATTLEGROUNDS MOBILE INDIA",
+      "appVersion": "4.5.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1526436837/dl2/4.5.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.pubg.imobile"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Black Desert Mobile",
+      "appVersion": "4.15.59",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1477186880/dl2/4.15.59?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.pearlabyss.blackdesertm.gl"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "BLACK RUSSIA",
+      "appVersion": "1.81.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1644102824/dl2/1.81.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.blackhub.bronline"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Blood Strike x One-Punch Man",
+      "appVersion": "1.003.141",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1637059453/dl2/1.003.141?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netease.newspike"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Blue Archive",
+      "appVersion": "1.90.439170",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1571873795/dl2/1.90.439170?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.nexon.bluearchive"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Brawl Stars",
+      "appVersion": "68.279",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1229016807/dl2/68.279?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.supercell.laser"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "BrownDust2 - Full Burst RPG",
+      "appVersion": "2.30.10",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6450099588/dl2/2.30.10?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.neowizgames.game.browndust2ios"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Call of Duty: Mobile VN",
+      "appVersion": "1.8.56",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1477030970/dl2/1.8.56?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: vn.vng.codmvn"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Candy Crush Saga",
+      "appVersion": "1.331.0.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id553834731/dl2/1.331.0.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.midasplayer.apps.candycrushsaga"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "CarX Drift Racing 2",
+      "appVersion": "1.42.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1198510863/dl2/1.42.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.carx-tech.carxdr2"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "CarX Street",
+      "appVersion": "1.20.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1458863319/dl2/1.20.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.carxtech.sr"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Clash of Clans",
+      "appVersion": "18.400.9",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id529479190/dl2/18.400.9?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.supercell.magic"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Clash Royale",
+      "appVersion": "v15.535.22",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1053012308/dl2/v15.535.22?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.supercell.scroll"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "CookieRun: Kingdom",
+      "appVersion": "7.6.201",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1509450845/dl2/7.6.201?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.devsisters.ck"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "CookieRun: OvenBreak",
+      "appVersion": "14.011",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id963067330/dl2/14.011?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.devsisters.gb"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "CounterSide",
+      "appVersion": "9.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1309394370/dl2/9.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.studiobside.CounterSide"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "CSR 2 - Realistic Drag Racing",
+      "appVersion": "6.5.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id887947640/dl2/6.5.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.naturalmotion.customstreetracer2"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Delta Force",
+      "appVersion": "1.202.37114",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6451399876/dl2/1.202.37114?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.proxima.dfm"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Destiny: Rising",
+      "appVersion": "1.0.12",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1593326563/dl2/1.0.12?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netease.g108na"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Diablo Immortal",
+      "appVersion": "5.0.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1492005122/dl2/5.0.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.blizzard.diablo.immortal"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Dislyte",
+      "appVersion": "3.4.40",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1590319959/dl2/3.4.40?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.lilithgames.xgame.ios.global"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "EA SPORTS FC Soccer Mobile 26",
+      "appVersion": "27.0.03",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1094930513/dl2/27.0.03?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.ea.ios.fifamobile"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "eFootball™",
+      "appVersion": "10.5.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1117270703/dl2/10.5.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: jp.konami.pesactionmobile"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Epic Seven",
+      "appVersion": "1.0.967",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1322399438/dl2/1.0.967?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.stove.epic7.ios"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Family Island — Farming game",
+      "appVersion": "2026190.0.92384",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1464689103/dl2/2026190.0.92384?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.MelsoftGames.FamilyIsland"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Fate/Grand Order",
+      "appVersion": "2.136.5",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1015521325/dl2/2.136.5?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.aniplex.fategrandorder"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Fate/Grand Order (English)",
+      "appVersion": "2.90.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1183802626/dl2/2.90.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.aniplex.fategrandorder.en"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "FC Online M by EA SPORTS™",
+      "appVersion": "2.0.42",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1427414541/dl2/2.0.42?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.garena.game.fo4mvn"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Fortnite",
+      "appVersion": "41.20",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6483539426/dl2/41.20?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.epicgames.FortniteGame"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Free Fire MAX",
+      "appVersion": "2.126.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1480516829/dl2/2.126.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.dts.freefiremax"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Frozen City",
+      "appVersion": "2.4.5",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1637040599/dl2/2.4.5?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.cg.fct.global"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Game of Thrones: Kingsroad",
+      "appVersion": "1.4.18",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6483917232/dl2/1.4.18?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netmarble.got"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Gangstar Vegas - Mafia action",
+      "appVersion": "950",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id571393580/dl2/950?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.gameloft.gangstar4"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Garena AOV: Ace of Destiny",
+      "appVersion": "1.63.1.3",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1222857607/dl2/1.63.1.3?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.garena.game.kgid"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Garena Liên Quân Mobile",
+      "appVersion": "1.63.1.5",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1150288115/dl2/1.63.1.5?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.garena.game.kgvn"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Garena RoV: Ace of Destiny",
+      "appVersion": "1.63.1.5",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1150337432/dl2/1.63.1.5?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.garena.game.kgth"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Garena 傳說對決：冥定王牌版本",
+      "appVersion": "1.63.1.4",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1089079153/dl2/1.63.1.4?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.garena.game.kgtw"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Garena® Delta Force",
+      "appVersion": "1.203.37114.55",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6670604287/dl2/1.203.37114.55?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.garena.game.df"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Genshin Impact",
+      "appVersion": "6.7.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1517783697/dl2/6.7.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.miHoYo.GenshinImpact"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Genshin Impact · Cloud",
+      "appVersion": "6.7.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6446889955/dl2/6.7.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.hoyoverse.cloudgames.GenshinImpact"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "GIRLS' FRONTLINE 2: EXILIUM",
+      "appVersion": "2.12",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6502505286/dl2/2.12?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.Sunborn.SnqxExilium.Glo"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "GODDESS OF VICTORY: NIKKE",
+      "appVersion": "148.10(5)",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1585915174/dl2/148.10(5)?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.proximabeta.nikke"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Guardian Tales",
+      "appVersion": "3.49.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1485526957/dl2/3.49.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.kakaogames.gdts"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Hearthstone",
+      "appVersion": "36.0.246003",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id625257520/dl2/36.0.246003?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.blizzard.wtcg.hearthstone"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Honkai Impact 3",
+      "appVersion": "8.9.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1299582178/dl2/8.9.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.miHoYo.bh3oversea"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Honkai Impact 3rd",
+      "appVersion": "8.9.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1336342304/dl2/8.9.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.miHoYo.bh3global"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Honkai: Star Rail",
+      "appVersion": "4.4.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1599719154/dl2/4.4.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.HoYoverse.hkrpgoversea"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Identity V",
+      "appVersion": "26.166.2333",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1347780764/dl2/26.166.2333?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netease.idv"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Infinity Nikki",
+      "appVersion": "2.8.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6502622570/dl2/2.8.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.infoldgames.infinitynikkien"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Injustice 2",
+      "appVersion": "6.7.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1109008423/dl2/6.7.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.wb.Injustice.Brawler2017"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Last Day on Earth: Survival",
+      "appVersion": "1.45.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1241932094/dl2/1.45.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: zombie.survival.craft.z"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Last Island of Survival",
+      "appVersion": "2.43.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1463021419/dl2/2.43.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.herogame.ios.lastdayrules"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "League of Legends: Wild Rift",
+      "appVersion": "2458",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1480616990/dl2/2458?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.riotgames.league.wildrift"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Legends of Runeterra",
+      "appVersion": "7.7",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1480617557/dl2/7.7?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.riotgames.legendsofruneterra"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Limbus Company",
+      "appVersion": "1.109.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6444112366/dl2/1.109.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.ProjectMoon.LimbusCompany"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Lineage W",
+      "appVersion": "1.17.80",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1444980563/dl2/1.17.80?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.ncsoft.lineagew"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Lineage2M",
+      "appVersion": "5.1.10",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1575437656/dl2/5.1.10?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.ncsoft.lineage2mru"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Lineage2M",
+      "appVersion": "4.1.10",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1575427154/dl2/4.1.10?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.ncsoft.lineage2mnu"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "LMHT: Tốc Chiến",
+      "appVersion": "7.1.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1531280382/dl2/7.1.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.riotgames.league.wildriftvn"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "MARVEL Future Fight",
+      "appVersion": "12.0.3",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id955705796/dl2/12.0.3?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netmarble.mheros"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "MARVEL SNAP - Hero Card Game",
+      "appVersion": "52.8.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1592081003/dl2/52.8.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.nvsgames.snap"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "MARVEL Strike Force: Squad RPG",
+      "appVersion": "10.3.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1292952049/dl2/10.3.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.foxnextgames.m3"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "MementoMori: AFKRPG",
+      "appVersion": "4.18.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1611490041/dl2/4.18.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: jp.boi.mementomori.ios"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Mobile Legends: Adventure",
+      "appVersion": "656.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1456213261/dl2/656.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.moonton.mobilehero"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Mobile Legends: Bang Bang",
+      "appVersion": "2.1.88.1202.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1160056295/dl2/2.1.88.1202.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.mobile.legends"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Modern Warships: Naval Battles",
+      "appVersion": "0.104.2",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1541751298/dl2/0.104.2?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.Shooter.ModernWarships"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Monster Hunter Now",
+      "appVersion": "123.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6445906110/dl2/123.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.nianticlabs.monsterhunter"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "NEW STATE : NEW ERA OF BR",
+      "appVersion": "0.9.94",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1542727626/dl2/0.9.94?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.pubg.newstate"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "ODIN:VALHALLA RISING",
+      "appVersion": "1.9.2",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6480102112/dl2/1.9.2?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.kakaogames.gbod"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Once Human",
+      "appVersion": "1.0.41",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1573906210/dl2/1.0.41?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netease.h73.jhqyna"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Once Human",
+      "appVersion": "1.0.23",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6477342989/dl2/1.0.23?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netease.h73hmt.qrsj"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "ONE PIECE Bounty Rush",
+      "appVersion": "92100",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1343688545/dl2/92100?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: jp.co.bandainamcoent.BNEI0297"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Phigros",
+      "appVersion": "3.19.2.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1454809109/dl2/3.19.2.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: games.Pigeon.Phigros"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Pixel Gun 3D: Online Shooter",
+      "appVersion": "26.9.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id640111933/dl2/26.9.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: zombiegun3d"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Play Together VNG",
+      "appVersion": "2.29.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1612175933/dl2/2.29.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.vng.playtogether"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Play Together: Friends & Party",
+      "appVersion": "2.29.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1402384531/dl2/2.29.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.haegin.playtogether"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "PUBG MOBILE",
+      "appVersion": "4.5.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1330123889/dl2/4.5.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.tencent.ig"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "PUBG Mobile VN",
+      "appVersion": "4.5.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1438396625/dl2/4.5.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: vn.vng.pubgmobile"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "PUBG MOBILE：絕地求生M",
+      "appVersion": "4.5.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1453363650/dl2/4.5.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.rekoo.pubgm"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Punishing: Gray Raven",
+      "appVersion": "4.6",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1571685286/dl2/4.6?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.kurogame.punishing.grayraven.en"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Puzzle & Dragons",
+      "appVersion": "23.2.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id493470467/dl2/23.2.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: jp.gungho.pad"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "QQ飞车",
+      "appVersion": "1.57.0.44671",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1235504705/dl2/1.57.0.44671?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.tencent.tmgp.speedmobile"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Rainbow Six Mobile",
+      "appVersion": "2.2.000",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1608916511/dl2/2.2.000?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.ubisoft.rainbowsixmobile.r6.fps.pvp.shooter"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Red Dead Redemption NETFLIX",
+      "appVersion": "1.58.63226194",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6743944297/dl2/1.58.63226194?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netflix.NGP.Kamo"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Resident Evil 4",
+      "appVersion": "1.0.7",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6462360082/dl2/1.0.7?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: jp.co.capcom.RE4US"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Resident Evil Village",
+      "appVersion": "1.1.8",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6450980545/dl2/1.1.8?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: jp.co.capcom.VillageUSios"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Reverse: 1999",
+      "appVersion": "3.6",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1672933190/dl2/3.6?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.bluepoch.m.en.reverse1999.ios"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Roblox",
+      "appVersion": "2.730.790",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id431946152/dl2/2.730.790?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.roblox.robloxmobile"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Sky: Children of the Light",
+      "appVersion": "0.33.8",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1462117269/dl2/0.33.8?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.tgc.sky.ios"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "SLIME-ISEKAI Memories：TenSura",
+      "appVersion": "3.0.75",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1577316192/dl2/3.0.75?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: jp.co.bandainamcoent.BNEI0402"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Standoff 2",
+      "appVersion": "0.39.2",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1359706682/dl2/0.39.2?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.axlebolt.standoff2"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Survivor!.io",
+      "appVersion": "4.9.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1528941310/dl2/4.9.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.dxx.firenow"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Sword Master Story",
+      "appVersion": "4.205.630",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1521447065/dl2/4.205.630?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.superplanet.swordmaster"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "SWORD OF JUSTICE",
+      "appVersion": "101.1.11486757",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6743792551/dl2/101.1.11486757?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netease.nshmna"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "SWORD OF JUSTICE",
+      "appVersion": "101.1.11486753",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6743792504/dl2/101.1.11486753?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netease.nshmsea"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "TFT: Teamfight Tactics",
+      "appVersion": "16.14.7941220",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1480616748/dl2/16.14.7941220?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.riotgames.league.teamfighttactics"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "TFT: 聯盟戰棋",
+      "appVersion": "16.14.7941220",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1501301571/dl2/16.14.7941220?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.riotgames.league.teamfighttacticstw"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "The Seven Deadly Sins",
+      "appVersion": "2.108.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1475440231/dl2/2.108.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netmarble.nanagb"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Tower of Fantasy",
+      "appVersion": "6.1.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1601586278/dl2/6.1.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.levelinfinite.hotta.ios"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "War Thunder Mobile：戰爭雷霆",
+      "appVersion": "1.24.1.31",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1577525428/dl2/1.24.1.31?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.gaijin.wtmobile"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Warface GO: multiplayer FPS",
+      "appVersion": "4.11.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1460568073/dl2/4.11.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.my.warface.online.fps.pvp.action.shooter"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Warframe",
+      "appVersion": "1.10.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1520001008/dl2/1.10.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.digitalextremes.warframemobile"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Warpath: Ace Shooter",
+      "appVersion": "14.20.00",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1529067679/dl2/14.20.00?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.wondergames.warpath.ios"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Where Winds Meet",
+      "appVersion": "1.0.19",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6472396866/dl2/1.0.19?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netease.yysls"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Wuthering Waves - To Xuanfang",
+      "appVersion": "3.5.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6475033368/dl2/3.5.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.kurogame.wutheringwaves.global"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "Zenless Zone Zero",
+      "appVersion": "3.0.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1606356401/dl2/3.0.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.HoYoverse.Nap"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "던전앤파이터 모바일",
+      "appVersion": "50.5.4",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1448979486/dl2/50.5.4?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.nexon.mdnf"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "명일방주",
+      "appVersion": "35.7.01",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1473903308/dl2/35.7.01?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.YoStarKR.Arknights"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "배틀그라운드",
+      "appVersion": "4.5.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1366526331/dl2/4.5.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.pubg.krmobile"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "붕괴3rd",
+      "appVersion": "8.9.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1286705196/dl2/8.9.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.miHoYo.bh3korea"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "우마무스메 프리티 더비",
+      "appVersion": "4.1.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1616108452/dl2/4.1.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.kakaogames.umamusume"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "페이트/그랜드 오더",
+      "appVersion": "7.2.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1241893973/dl2/7.2.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netmarble.fgok"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "アークナイツ",
+      "appVersion": "35.7.01",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1478990007/dl2/35.7.01?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.YoStarJP.Arknights"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "ウマ娘 プリティーダービー",
+      "appVersion": "2.28.5",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1325457827/dl2/2.28.5?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: jp.co.cygames.umamusume"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "パーフェクトワールド  M",
+      "appVersion": "1.772.3",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1477011392/dl2/1.772.3?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.zlongame.jp.wmsj"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "パニシング：グレイレイヴン",
+      "appVersion": "4.6.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1517545256/dl2/4.6.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.herogame.punishing.grayraven.jp"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク",
+      "appVersion": "6.6.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1489932710/dl2/6.6.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.sega.pjsekai"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "ヘブンバーンズレッド",
+      "appVersion": "6.7.2",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1576831351/dl2/6.7.2?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.heavenburnsred"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "モンスターストライク",
+      "appVersion": "31.7.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id658511662/dl2/31.7.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: jp.co.mixi.monsterstrike"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "リネージュ2M（Lineage2M）",
+      "appVersion": "3.2.39",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1538379462/dl2/3.2.39?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.ncsoft.lineage2mjp"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "リバース：1999",
+      "appVersion": "3.6",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6448979859/dl2/3.6?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.bluepoch.m.jp.reverse1999.ios"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "七日世界",
+      "appVersion": "1.0.22",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6737880257/dl2/1.0.22?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netease.qrsj"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "三角洲行动",
+      "appVersion": "1.201.37114",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1642894547/dl2/1.201.37114?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.tencent.tmgp.dfm"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "使命召唤手游",
+      "appVersion": "1.9.55",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1488410151/dl2/1.9.55?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.tencent.tmgp.cod"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "光·遇",
+      "appVersion": "0.16.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1344733855/dl2/0.16.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netease.sky"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "最终幻想14：水晶世界",
+      "appVersion": "1.0.22",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6447952559/dl2/1.0.22?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.tencent.tmgp.fmgame"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "勝利女神：妮姬",
+      "appVersion": "148.10(5)",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1630883882/dl2/148.10(5)?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.gamamobi.nikke"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "原神·空月之歌",
+      "appVersion": "6.7.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1467190251/dl2/6.7.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.miHoYo.Yuanshen"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "另一个伊甸超越时空的猫",
+      "appVersion": "3.13.52",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1435446586/dl2/3.13.52?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.xd.anothereden"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "命运：群星",
+      "appVersion": "1.0.7",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6738080627/dl2/1.0.7?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netease.g108"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "天堂2M",
+      "appVersion": "2.2.39",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1529208517/dl2/2.2.39?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.ncsoft.lineage2mtw"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "少女前線2：追放",
+      "appVersion": "2.12",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6499011827/dl2/2.12?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.haoplay.game.ios.exilium"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "崩坏：星穹铁道",
+      "appVersion": "4.4.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1523037824/dl2/4.4.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.miHoYo.hkrpg"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "崩坏3",
+      "appVersion": "8.9.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1143402987/dl2/8.9.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.miHoYo.bh3"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "崩壊3rd",
+      "appVersion": "8.9.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1172809651/dl2/8.9.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.miHoYo.bh3rdJP"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "幻塔",
+      "appVersion": "5.6.5",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1579631419/dl2/5.6.5?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: tw.com.iwplay.ht"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "弹壳特攻队",
+      "appVersion": "4.7.2",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1628270358/dl2/4.7.2?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.habby.danke"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "恋と深空",
+      "appVersion": "5.0.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6443467980/dl2/5.0.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.papegames.lysk.jp"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "恋与深空",
+      "appVersion": "6.0.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1618911882/dl2/6.0.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.papegames.lysk"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "战双帕弥什",
+      "appVersion": "4.6",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1461695441/dl2/4.6?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.kurogame.haru.hero"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "无期迷途",
+      "appVersion": "2.4.3",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1562260653/dl2/2.4.3?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.zy.wqmt.cn"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "无畏契约：源能行动",
+      "appVersion": "1.23.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6535673811/dl2/1.23.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.tencent.tmgp.codev"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "无限暖暖",
+      "appVersion": "2.8.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6502622479/dl2/2.8.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.papegames.infinitynikki"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "明日方舟",
+      "appVersion": "2.7.51",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1454663939/dl2/2.7.51?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.hypergryph.arknights"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "星际猎人-无尽的拉格朗日全面焕新",
+      "appVersion": "1.2.1140902",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1449701587/dl2/1.2.1140902?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netease.lglr"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "暗区突围",
+      "appVersion": "1.0.166",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1505445106/dl2/1.0.166?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.tencent.mf.uam"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "暗黑破坏神：不朽",
+      "appVersion": "5.0.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1517601112/dl2/5.0.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netease.immortal"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "未定事件簿",
+      "appVersion": "5.9.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1507310279/dl2/5.9.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.miHoYo.wd"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "梦幻互通版",
+      "appVersion": "4.2.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1123626556/dl2/4.2.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netease.mhxyhtb"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "永劫无间",
+      "appVersion": "1.0.677052",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1580500427/dl2/1.0.677052?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netease.l22naraka"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "深空之眼",
+      "appVersion": "5.0.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1507863649/dl2/5.0.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.yongshi.tenojo.ios"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "漫威终极逆转",
+      "appVersion": "119.1.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6479729855/dl2/119.1.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netease.ms"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "炉石传说",
+      "appVersion": "36.0.245258",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id841140063/dl2/36.0.245258?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.blizzard.wtcg.cn.hearthstone"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "無限暖暖",
+      "appVersion": "2.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6502623070/dl2/2.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.infoldgames.infinitynikkias"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "燕云十六声",
+      "appVersion": "1.0.91",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6475668638/dl2/1.0.91?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netease.yyslscn"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "王牌战争",
+      "appVersion": "2.41.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1470579466/dl2/2.41.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.lastdayrulessurvival.heroios"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "王者荣耀",
+      "appVersion": "11.4.1.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id989673964/dl2/11.4.1.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.tencent.smoba"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "穿越火线-枪战王者",
+      "appVersion": "1.0.560",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1042545880/dl2/1.0.560?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.tencent.tmgp.cf"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "第五人格",
+      "appVersion": "26.166.1720",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1330863325/dl2/26.166.1720?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netease.id5"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "绝区零",
+      "appVersion": "3.0.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1606359076/dl2/3.0.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.miHoYo.Nap"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "胜利女神：新的希望",
+      "appVersion": "18.2.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6467825646/dl2/18.2.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.tencent.nikke"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "英雄联盟手游",
+      "appVersion": "7.2.1.2458",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1455054000/dl2/7.2.1.2458?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.tencent.lolm"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "蔚蓝档案",
+      "appVersion": "3.0.2",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6447541184/dl2/3.0.2?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.RoamingStar.BlueArchive"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "超異域公主連結！Re:Dive",
+      "appVersion": "5.7.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1390473317/dl2/5.7.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: tw.sonet.princessconnect"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "逆水寒",
+      "appVersion": "4.1.11657307",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1541570980/dl2/4.1.11657307?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.netease.nshm"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "造梦西游OL",
+      "appVersion": "16.5.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id672093597/dl2/16.5.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.4399.zmxyol"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "重返未來：1999",
+      "appVersion": "3.4",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6448025123/dl2/3.4?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.mover.twcfwlios"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "重返未来：1999-三周年特别版本",
+      "appVersion": "3.7.0",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1611712418/dl2/3.7.0?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.bluepoch.m.reverse1999"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "金铲铲之战",
+      "appVersion": "1.13.33 (1168)",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1478101301/dl2/1.13.33%20(1168)?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.tencent.jkchess"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "香腸派對",
+      "appVersion": "25.07",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id1563750315/dl2/25.07?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.xd.GlobalSoFunny.Sausage"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2026-07-19T10:55:15Z",
+      "appName": "鸣潮 - 前往玄方地界",
+      "appVersion": "3.5.1",
+      "appImage": "https://raw.githubusercontent.com/defffis/Open-ipa-Library/main/docs/fallback-icon.png",
+      "appPackage": "https://decrypt.day/app/id6450693428/dl2/3.5.1?t=5b8bb201-82c7-4c6f-bcab-4b70731ba51c",
+      "appDescription": "Источник: decrypt.day PlayCover Library\nBundle ID: com.kurogame.mingchao"
     }
   ]
 }
