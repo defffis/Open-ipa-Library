@@ -1,3 +1,7 @@
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
+
+const execFileAsync = promisify(execFile);
 const DECRYPT_DAY_LIBRARY_URL = "https://decrypt.day/library";
 const PLAYCOVER_USER_AGENT = "PlayCover/3.1.0 CFNetwork/1494.0.7 Darwin/23.4.0";
 
@@ -7,64 +11,57 @@ export default async function handler(request, response) {
     return response.status(405).json({ ok: false, error: "Method not allowed" });
   }
 
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 25_000);
-
   try {
-    const upstream = await fetch(DECRYPT_DAY_LIBRARY_URL, {
-      method: "GET",
-      redirect: "follow",
-      cache: "no-store",
-      signal: controller.signal,
-      headers: {
-        Accept: "application/json, text/plain;q=0.9, */*;q=0.8",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Cache-Control": "no-cache",
-        Pragma: "no-cache",
-        Referer: "https://decrypt.day/",
-        "User-Agent": PLAYCOVER_USER_AGENT
+    const { stdout, stderr } = await execFileAsync(
+      "curl",
+      [
+        "-sS",
+        "--location",
+        "--max-time",
+        "25",
+        DECRYPT_DAY_LIBRARY_URL,
+        "-H",
+        `User-Agent: ${PLAYCOVER_USER_AGENT}`,
+        "-H",
+        "Accept: application/json"
+      ],
+      {
+        timeout: 30_000,
+        maxBuffer: 15 * 1024 * 1024,
+        encoding: "utf8"
       }
-    });
+    );
 
-    const text = await upstream.text();
-
-    if (!upstream.ok) {
-      return response.status(upstream.status).json({
-        ok: false,
-        error: `decrypt.day returned HTTP ${upstream.status}`,
-        details: text.slice(0, 300)
-      });
-    }
-
+    let payload;
     try {
-      const payload = JSON.parse(text);
-      if (!Array.isArray(payload)) {
-        return response.status(502).json({
-          ok: false,
-          error: "decrypt.day returned JSON, but the root value is not an array"
-        });
-      }
+      payload = JSON.parse(stdout);
     } catch {
       return response.status(502).json({
         ok: false,
-        error: "decrypt.day returned invalid JSON",
-        details: text.slice(0, 300)
+        error: "curl returned invalid JSON",
+        stderr: stderr.slice(0, 300),
+        details: stdout.slice(0, 300)
+      });
+    }
+
+    if (!Array.isArray(payload)) {
+      return response.status(502).json({
+        ok: false,
+        error: "curl returned JSON whose root is not an array"
       });
     }
 
     response.setHeader("Access-Control-Allow-Origin", "*");
     response.setHeader("Cache-Control", "public, s-maxage=300, stale-while-revalidate=60");
     response.setHeader("Content-Type", "application/json; charset=utf-8");
-    return response.status(200).send(text);
+    return response.status(200).send(stdout);
   } catch (error) {
-    const message = error?.name === "AbortError"
-      ? "decrypt.day request timed out"
-      : error instanceof Error
-        ? error.message
-        : String(error);
-
-    return response.status(502).json({ ok: false, error: message });
-  } finally {
-    clearTimeout(timer);
+    return response.status(502).json({
+      ok: false,
+      error: error instanceof Error ? error.message : String(error),
+      code: error?.code ?? null,
+      stderr: typeof error?.stderr === "string" ? error.stderr.slice(0, 300) : null,
+      stdout: typeof error?.stdout === "string" ? error.stdout.slice(0, 300) : null
+    });
   }
 }
