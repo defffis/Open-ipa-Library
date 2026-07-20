@@ -1,11 +1,11 @@
 [
   {
     "sourceId": "my-playcover-feed",
-    "sourceName": "My PlayCover Feed",
-    "status": "error",
-    "appsFound": 0,
+    "sourceName": "decrypt.day PlayCover Library",
+    "status": "ok",
+    "appsFound": 177,
     "appsExportable": 0,
-    "error": "response is HTML Cloudflare challenge from https://decrypt.day/library/data.json (snippet: <!doctype html> <html lang=\"en\" class=\"dark\"> <head><script>(function(w,i,g){w[g]=w[g]||[];if(typeof w[g].push=='functio)"
+    "error": null
   },
   {
     "sourceId": "decrypt-day",

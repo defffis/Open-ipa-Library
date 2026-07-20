@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-07-19T05:31:22Z",
+  "updatedAt": "2026-07-20T05:49:13Z",
   "status": "partial",
   "sourcesProcessed": 3,
-  "sourcesOk": 0,
+  "sourcesOk": 1,
   "sourcesPartial": 0,
-  "sourcesError": 3,
-  "appsFound": 0,
-  "appsNormalized": 0,
+  "sourcesError": 2,
+  "appsFound": 177,
+  "appsNormalized": 177,
   "appsExportable": 0,
   "appsDropped": 0,
   "duplicatesRemoved": 0,
@@ -14,10 +14,6 @@
   "dryRun": false,
   "message": "No exportable apps (with download_url and availability=public). Existing catalog preserved.",
   "sourceErrors": [
-    {
-      "sourceId": "my-playcover-feed",
-      "error": "response is HTML Cloudflare challenge from https://decrypt.day/library/data.json (snippet: <!doctype html> <html lang=\"en\" class=\"dark\"> <head><script>(function(w,i,g){w[g]=w[g]||[];if(typeof w[g].push=='functio)"
-    },
     {
       "sourceId": "decrypt-day",
       "error": "HTTP 404 from https://decrypt.day/app/list"
