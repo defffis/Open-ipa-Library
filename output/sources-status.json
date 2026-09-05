@@ -2,10 +2,10 @@
   {
     "sourceId": "my-playcover-feed",
     "sourceName": "decrypt.day PlayCover Library",
-    "status": "ok",
-    "appsFound": 178,
+    "status": "error",
+    "appsFound": 0,
     "appsExportable": 0,
-    "error": null
+    "error": "HTTP 502 from https://open-ipa-library.vercel.app/api/source/decrypt-day"
   },
   {
     "sourceId": "decrypt-day",
@@ -13,7 +13,7 @@
     "status": "error",
     "appsFound": 0,
     "appsExportable": 0,
-    "error": "HTTP 404 from https://decrypt.day/app/list"
+    "error": "HTTP 503 from https://decrypt.day/app/list"
   },
   {
     "sourceId": "armconverter",
