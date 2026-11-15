@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T08:58:43Z",
+  "updatedAt": "2026-11-15T09:27:46Z",
   "status": "partial",
   "sourcesProcessed": 3,
   "sourcesOk": 1,
@@ -16,7 +16,7 @@
   "sourceErrors": [
     {
       "sourceId": "decrypt-day",
-      "error": "HTTP 404 from https://decrypt.day/app/list"
+      "error": "HTTP 403 from https://decrypt.day/app/list"
     },
     {
       "sourceId": "armconverter",
