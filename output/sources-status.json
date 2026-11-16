@@ -13,7 +13,7 @@
     "status": "error",
     "appsFound": 0,
     "appsExportable": 0,
-    "error": "HTTP 403 from https://decrypt.day/app/list"
+    "error": "HTTP 404 from https://decrypt.day/app/list"
   },
   {
     "sourceId": "armconverter",
